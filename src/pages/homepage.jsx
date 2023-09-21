@@ -84,7 +84,7 @@ const Homepage = () => {
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
+							{/* <Logo width={logoSize} link={false} /> */}
 						</div>
 					</div>
 
@@ -104,7 +104,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="athu.png"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -188,9 +188,9 @@ const Homepage = () => {
 								))}
 							</div>
 
-							<div className="homepage-works">
+							{/* <div className="homepage-works">
 								<Works />
-							</div>
+							</div> */}
 						</div>
 
 						<div className="page-footer">
